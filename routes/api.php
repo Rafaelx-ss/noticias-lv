@@ -23,3 +23,6 @@ Route::prefix('users')->group(function () {
     Route::put('/{id}', [UserController::class, 'update']);  // Actualizar usuario
     Route::delete('/{id}', [UserController::class, 'destroy']); // Eliminar usuario
 });
+
+Route::post('/auth/login', [UserController::class, 'login']);
+Route::post('/auth/register', [UserController::class, 'register']);
