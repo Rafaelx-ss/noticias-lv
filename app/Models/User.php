@@ -44,13 +44,24 @@ class User extends Authenticatable implements JWTSubject
     {
         return [
             'email_verified_at' => 'datetime',
-            'password' => 'hashed',
+            'password' => 'encrypted',
         ];
+    }
+
+    public function validatePassword($password)
+    {
+        try {
+            $decryptedPassword = decrypt($this->password);
+            return $password === $decryptedPassword;
+        } catch (\Illuminate\Contracts\Encryption\DecryptException $e) {
+            error_log('Error al desencriptar la contraseña: ' . $e->getMessage());
+            return false;
+        }
     }
 
     public function getAuthPassword()
     {
-        return $this->password; // Cambiado de contrasena a password
+        return $this->password;
     }
 
     /**

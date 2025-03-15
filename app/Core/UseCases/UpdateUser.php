@@ -11,11 +11,13 @@ class UpdateUser
 
     public function execute(int $id, array $data): User
     {
+
+        
         $user = new User(
             id: $id,
             name: $data['name'],
             email: $data['email'],
-            password: bcrypt($data['password'])
+            password: $data['password']
         );
 
         return $this->userRepository->update($user);
