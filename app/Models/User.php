@@ -50,6 +50,8 @@ class User extends Authenticatable implements JWTSubject
 
     public function validatePassword($password)
     {
+
+        // Desencriptar la contraseña y compararla con la contraseña ingresada
         try {
             $decryptedPassword = decrypt($this->password);
             return $password === $decryptedPassword;
