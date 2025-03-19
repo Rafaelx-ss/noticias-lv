@@ -1,9 +1,4 @@
-<p align="center">
-  <a href="#"><img src="https://github.com/tu-repo/workflows/tests/badge.svg" alt="Build Status"></a>
-  <a href="#"><img src="https://img.shields.io/github/downloads/tu-repo/tu-proyecto/total" alt="Total Downloads"></a>
-  <a href="#"><img src="https://img.shields.io/github/v/release/tu-repo/tu-proyecto" alt="Latest Stable Version"></a>
-  <a href="#"><img src="https://img.shields.io/github/license/tu-repo/tu-proyecto" alt="License"></a>
-</p>
+
 
 ## Acerca del Proyecto
 
