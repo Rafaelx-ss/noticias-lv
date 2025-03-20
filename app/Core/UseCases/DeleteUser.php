@@ -2,7 +2,7 @@
 
 namespace App\Core\UseCases;
 
-use App\Core\Repositories\UserRepositoryInterface;
+use App\Core\Repositories\UserRepositoryInterface;        
 
 class DeleteUser
 {
