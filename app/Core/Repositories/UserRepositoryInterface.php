@@ -4,7 +4,7 @@ namespace App\Core\Repositories;
 
 use App\Core\Entities\User;
 
-interface UserRepositoryInterface
+interface UserRepositoryInterface       
 {
     public function store(User $user): User;
     public function getById(int $id): ?User;
