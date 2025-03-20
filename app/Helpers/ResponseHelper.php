@@ -6,7 +6,7 @@ use Illuminate\Http\JsonResponse;
 
 class ResponseHelper
 {
-    public static function success($message, $data = [], $statusCode = 200): JsonResponse
+    public static function success($message, $data = [], $statusCode = 200): JsonResponse     
     {
         $response = [
             'success' => true,
