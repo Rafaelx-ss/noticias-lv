@@ -19,19 +19,17 @@ También puedes explorar los siguientes recursos:
 - [Laravel Bootcamp](https://bootcamp.laravel.com)
 - [Laracasts](https://laracasts.com)
 
-## Patrocinadores
+## colaboradores
 
 Agradecemos a nuestros colaboradores por su apoyo al desarrollo de este proyecto. 
 
-### Patrocinadores Premium
+### colaboradores
 - **[Rafaelx-ss](https://github.com/Rafaelx-ss)**
 - **[JosePK0](https://github.com/JosePK0)**
 - **[KevDom0317](https://github.com/KevDom0317)**
 - **[blackgroxy](https://github.com/Gu1ll3rmo)**
 
-## Contribuir
 
-Gracias por considerar contribuir a este proyecto. Puedes encontrar la guía de contribución en nuestra documentación.
 
 ## Código de Conducta
 
